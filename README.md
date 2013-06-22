@@ -11,15 +11,40 @@ To get started, you'll need to enable Google Cloud Storage on a project and enab
 (This process is a little cumbersome, but it gets easier from here)
 
 1. From the Google Cloud Console, click the "APIs" link
+
 ![APIs Link](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/apis-link.png)
+
 2. Make sure "All" is selected, then click the toggle switch to enable "Google Cloud Storage JSON API"
+
+![Toggle](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/toggle.png)
+
 3. Click the Gear next to "Google Cloud Storage JSON API" to access the Google APIs configuration page
+
+![Toggle](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/gear.png)
+
 4. In the left menu click "Overview" and note the "Project Number" (needed for later configuration)
+
+![Project Number](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/project-number.png)
+
 5. In the left menu, select "API Access"
+
+![API Access](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/api-access.png)
+
 6. Under "Client ID for Google Compute and App Engine", select "Create another Client ID..."
+
+![Create Another Client ID](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/create-another-client-id.png)
+
 7. Select "Service Account", then click "Create client ID"
+
+![Create Another Client ID](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/create-client-id.png)
+
 8. Click the "Download private key" button to save the private key (path needed for later configuration)
+
+![Download Private Key](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/download-private-key.png)
+
 9. Under Service Account, note the "Client ID" (needed for later configuration)
+
+![Download Private Key](https://raw.github.com/pliablematter/simple-cloud-storage/master/docs/images/client-id.png)
 
 ### Defining Properties
 
