@@ -1,4 +1,4 @@
 simple-cloud-storage
 ====================
 
-A simple Java API to Google Cloud Storage
+A simple wrapper around the Google Cloud Storage API
