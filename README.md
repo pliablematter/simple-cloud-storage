@@ -11,7 +11,7 @@ To get started, you'll need to enable Google Cloud Storage on a project and enab
 (This process is a little cumbersome, but it gets easier from here)
 
 1. From the Google Cloud Console, click the "APIs" link
-![APIs Link](pliablematter.github.com/simple-cloud-storage/docs/images/apis-link.png)
+![APIs Link](https://github.com/pliablematter/simple-cloud-storage/blob/master/docs/images/apis-link.png)
 2. Make sure "All" is selected, then click the toggle switch to enable "Google Cloud Storage JSON API"
 3. Click the Gear next to "Google Cloud Storage JSON API" to access the Google APIs configuration page
 4. In the left menu click "Overview" and note the "Project Number" (needed for later configuration)
