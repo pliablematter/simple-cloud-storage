@@ -85,7 +85,7 @@ public class CloudStorage {
 		Storage.Objects.Get get = storage.objects().get(bucketName, fileName);
 		FileOutputStream stream = new FileOutputStream(file);
 		try {
-			get.executeAndDownloadTo(stream);
+			get.executeMediaAndDownloadTo(stream);
 		} finally {
 			stream.close();
 		}
